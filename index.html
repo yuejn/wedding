@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ysabel & Peter are getting married!</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="tulips" aria-hidden="true"></div>
+
+  <button class="lang-toggle" id="lang-toggle" type="button" data-i18n="lang.switch"></button>
+
+  <header class="hero">
+    <p class="hero__kicker" data-i18n="hero.kicker"></p>
+    <h1 class="hero__names" data-i18n="hero.names"></h1>
+    <p class="hero__date" data-i18n="hero.date"></p>
+    <p class="hero__place" data-i18n="hero.place"></p>
+    <p class="hero__tagline" data-i18n="hero.tagline"></p>
+  </header>
+
+  <section class="band countdown" aria-labelledby="countdown-title">
+    <h2 id="countdown-title" data-i18n="countdown.title"></h2>
+    <div class="countdown__grid" id="countdown">
+      <div class="countdown__cell"><span id="cd-days">0</span><small data-i18n="countdown.days"></small></div>
+      <div class="countdown__cell"><span id="cd-hours">0</span><small data-i18n="countdown.hours"></small></div>
+      <div class="countdown__cell"><span id="cd-minutes">0</span><small data-i18n="countdown.minutes"></small></div>
+      <div class="countdown__cell"><span id="cd-seconds">0</span><small data-i18n="countdown.seconds"></small></div>
+    </div>
+    <p class="countdown__message" id="cd-message" hidden></p>
+  </section>
+
+  <main>
+    <section class="rsvp" id="rsvp" aria-labelledby="rsvp-title">
+      <h2 id="rsvp-title" data-i18n="rsvp.title"></h2>
+      <p class="rsvp__intro" data-i18n="rsvp.intro"></p>
+
+      <!-- Step 1: who are you? -->
+      <form class="card" id="name-form" autocomplete="off">
+        <label for="guest-name" data-i18n="rsvp.nameLabel"></label>
+        <input id="guest-name" name="name" type="text" required data-i18n-placeholder="rsvp.namePlaceholder">
+        <button class="btn" type="submit" data-i18n="rsvp.nameButton"></button>
+        <p class="form-msg" id="name-msg" role="status"></p>
+      </form>
+
+      <!-- Step 2: can you make it? -->
+      <form class="card" id="answer-form" hidden>
+        <h3 id="greeting"></h3>
+        <p class="rsvp__question" data-i18n="rsvp.question"></p>
+
+        <div class="choices" id="choices">
+          <button class="btn btn--yes" type="button" id="btn-yes" data-i18n="rsvp.yes"></button>
+          <button class="btn btn--no" type="button" id="btn-no" data-i18n="rsvp.no"></button>
+        </div>
+        <button class="link-btn" type="button" id="btn-surrender" hidden data-i18n="rsvp.noSurrender"></button>
+
+        <!-- Extra questions, shown after YES -->
+        <div id="extras" hidden>
+          <div class="quiz-bar yes-only">
+            <span id="quiz-progress"></span>
+          </div>
+          <div id="quiz" class="yes-only"></div><!-- questions are built by js/rsvp.js from copy.json -->
+          <div id="details-step">
+            <h4 class="yes-only" id="details-heading" data-i18n="rsvp.quizLast"></h4>
+            <fieldset id="plusone-field" class="yes-only" hidden>
+              <legend id="plusone-legend"></legend>
+              <label class="radio"><input type="radio" name="plusOne" value="yes" checked> <span data-i18n="rsvp.plusOneYes"></span></label>
+              <label class="radio"><input type="radio" name="plusOne" value="no"> <span data-i18n="rsvp.plusOneNo"></span></label>
+            </fieldset>
+            <label class="yes-only" for="diet" data-i18n="rsvp.dietLabel"></label>
+            <input class="yes-only" id="diet" name="diet" type="text" data-i18n-placeholder="rsvp.dietPlaceholder">
+            <label class="yes-only" for="song" data-i18n="rsvp.songLabel"></label>
+            <input class="yes-only" id="song" name="song" type="text" data-i18n-placeholder="rsvp.songPlaceholder">
+            <label for="note" data-i18n="rsvp.noteLabel"></label>
+            <textarea id="note" name="note" rows="3" data-i18n-placeholder="rsvp.notePlaceholder"></textarea>
+            <button class="btn" type="submit" id="send" data-i18n="rsvp.send"></button>
+          </div>
+          <button class="link-btn yes-only" type="button" id="quiz-back" hidden data-i18n="rsvp.quizBack"></button>
+        </div>
+        <p class="form-msg" id="answer-msg" role="status"></p>
+      </form>
+
+      <!-- Step 3: done -->
+      <div class="card card--done" id="done" hidden>
+        <h3 id="done-title"></h3>
+        <p id="done-sub"></p>
+        <button class="link-btn" type="button" id="btn-change" data-i18n="rsvp.changeMind"></button>
+      </div>
+    </section>
+
+    <section class="band details" aria-labelledby="details-title">
+      <h2 id="details-title" data-i18n="details.title"></h2>
+      <p data-i18n="details.intro"></p>
+      <dl>
+        <div><dt data-i18n="details.when"></dt><dd data-i18n="details.whenValue"></dd></div>
+        <div><dt data-i18n="details.where"></dt><dd data-i18n="details.whereValue"></dd></div>
+        <div><dt data-i18n="details.wear"></dt><dd data-i18n="details.wearValue"></dd></div>
+      </dl>
+      <p class="small" data-i18n="details.more"></p>
+    </section>
+  </main>
+
+  <footer><p data-i18n="footer.text"></p></footer>
+
+  <div class="uhuh" id="uhuh" role="alertdialog" aria-labelledby="uhuh-title" hidden>
+    <div class="uhuh__emoji" aria-hidden="true">🙅</div>
+    <h2 class="uhuh__title" id="uhuh-title" data-i18n="rsvp.uhuhTitle"></h2>
+    <p class="uhuh__stamp" data-i18n="rsvp.uhuhStamp"></p>
+    <p class="uhuh__sub" data-i18n="rsvp.uhuhSub"></p>
+    <button class="btn" type="button" id="uhuh-retry" data-i18n="rsvp.uhuhRetry"></button>
+  </div>
+
+  <!-- Cinema mode: letterbox bars + widescreen video, shown after a YES is sent -->
+  <div class="cinema" id="cinema" role="dialog" aria-modal="true" hidden>
+    <div class="cinema__bar cinema__bar--top">
+      <div class="cinema__caption">
+        <h2 id="cinema-title"></h2>
+        <p id="cinema-sub"></p>
+      </div>
+    </div>
+    <div class="cinema__screen" id="cinema-screen"></div>
+    <div class="cinema__bar cinema__bar--bottom">
+      <button class="link-btn" type="button" id="cinema-close" data-i18n="rsvp.cinemaClose"></button>
+    </div>
+  </div>
+
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <script src="js/config.js"></script>
+  <script src="js/confetti.js"></script>
+  <script src="js/dodge.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/rsvp.js"></script>
+</body>
+</html>

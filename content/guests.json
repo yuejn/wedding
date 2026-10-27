@@ -1,0 +1,7 @@
+{
+  "_readme": "One entry per invitation. 'name' is what we match against and show. 'plusOne' is the plus-one's name or null. Replace these examples with the real list.",
+  "guests": [
+    { "name": "Jennifer", "plusOne": null },
+    { "name": "Parham", "plusOne": "their partner" }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "en": {
+    "meta": {
+      "title": "Ysabel & Peter are getting married!"
+    },
+    "lang": {
+      "switch": "Nederlands"
+    },
+    "hero": {
+      "kicker": "Save the date!",
+      "names": "Ysabel & Peter",
+      "date": "10 April 2027",
+      "place": "Amsterdam, the Netherlands",
+      "tagline": "They said yes. Now it's your turn, homie."
+    },
+    "countdown": {
+      "title": "Days until IT HAPPENS",
+      "days": "days",
+      "hours": "hours",
+      "minutes": "minutes",
+      "seconds": "seconds",
+      "today": "IT'S HAPPENING. TODAY. RIGHT NOW. 💍",
+      "past": "IT HAPPENED. 🎉"
+    },
+    "rsvp": {
+      "title": "RSVP",
+      "intro": "Only very special people got this link. That's you.",
+      "nameLabel": "First, who are you?",
+      "namePlaceholder": "Your name",
+      "nameButton": "That's me!",
+      "notFound": "Hmm, we can't find you on the list. Try your full name, or check the spelling. Gatecrashers will be sent to the canal. 🚲",
+      "didYouMean": "Did you mean {name}?",
+      "greeting": "Hi {name}! 🌷",
+      "question": "Can you make it?",
+      "yes": "YES!",
+      "no": "NO",
+      "noTaunts": [
+        "no",
+        "Nope.",
+        "Are you sure?",
+        "Think of Ysabel's face.",
+        "Peter is already crying.",
+        "Too slow!",
+        "Even the tulips are sad.",
+        "You can't catch me either.",
+        "Wrong button, babe.",
+        "Okay okay, you're persistent."
+      ],
+      "noSurrender": "…or, if you really truly can't make it 💔",
+      "noSurrenderConfirm": "I really can't make it",
+      "noReducedMotion": "NO (this button is on strike)",
+      "plusOneLabel": "Bringing {plusOne}?",
+      "plusOneYes": "Yes, we're both coming",
+      "plusOneNo": "Just me",
+      "dietLabel": "Anything we should know about food?",
+      "dietPlaceholder": "Allergies, vegetarian, hates cilantro…",
+      "songLabel": "A real song request (we'll actually try)",
+      "songPlaceholder": "Artist – Title",
+      "noteLabel": "A note for the happy couple (optional)",
+      "notePlaceholder": "Say something nice. Or something embarrassing.",
+      "send": "Send it!",
+      "sending": "Sending…",
+      "errorSend": "Oops, that didn't go through. Try again, or message Ysabel directly.",
+      "yesDone": "SEE YOU IN AMSTERDAM! 🎉",
+      "yesDoneSub": "Ysabel and Peter just did a little happy dance. More details soon.",
+      "noDone": "We'll miss you terribly. 💔",
+      "noDoneSub": "Thank you for telling us. We'll raise a glass to you.",
+      "changeMind": "Changed your mind? Change my answer (the latest one wins).",
+      "quiz": [
+        {
+          "id": "excited",
+          "q": "How excited are you to come to our wedding?",
+          "options": [
+            "Very excited 😊",
+            "Extremely excited 🎉",
+            "More excited than Alba with ice-cream 😤",
+            "Vibrating at a frequency only dogs can hear 🐕",
+            "I packed my suitcase in 2019 🧳"
+          ]
+        },
+        {
+          "id": "cry",
+          "q": "Are you gonna cry?",
+          "options": [
+            "Maybe a little 🥹",
+            "Ugly cry, full volume 😭",
+            "I'm already crying while filling this in 💧",
+            "I'll personally raise the canal water level 🌊",
+            "I'll cry so hard they'll have to hold the ceremony in a boat 🚤"
+          ]
+        },
+        {
+          "id": "gift",
+          "q": "What are you gonna gift us?",
+          "options": [
+            "A heartfelt card 💌",
+            "A very nice bottle of wine 🍷",
+            "My presence is the gift 🎁",
+            "ca$$$$$h 💸"
+          ]
+        },
+        {
+          "id": "outfit",
+          "q": "What colour dress are you gonna wear? (Suits count too.)",
+          "options": [
+            "Soft beige 🤎",
+            "Pink, obviously 💗",
+            "Whatever the dress code says 📋",
+            "Full tulip costume 🌷",
+            "White. Don't tell Ysabel. 🤫"
+          ],
+          "failIndex": 4
+        },
+        {
+          "id": "dance",
+          "q": "What song are you gonna boogie down to?",
+          "options": [
+            "Dancing Queen, loudly 👑",
+            "Snollebollekes – Links Rechts ↔️",
+            "Whatever the DJ plays, but with elbows 💃",
+            "The Macarena, three times 🕺",
+            "A cappella. Without being asked. 🎤"
+          ]
+        }
+      ],
+      "quizModeOne": "Switch to all questions on one page",
+      "quizModeAll": "Switch to one question at a time",
+      "quizBack": "← Back",
+      "uhuhTitle": "UH-UH!",
+      "uhuhStamp": "RSVP FAILED",
+      "uhuhSub": "You wore WHITE. You are officially uninvited. 🚫👰",
+      "uhuhRetry": "Okay, fine. I'll pick another colour.",
+      "cinemaClose": "Close the cinema ✕",
+      "quizProgress": "{n} of {total}",
+      "quizLast": "Last bit, promise"
+    },
+    "details": {
+      "title": "The details",
+      "intro": "Everything else is coming. For now, here's what we know:",
+      "when": "When",
+      "whenValue": "Saturday 10 April 2027",
+      "where": "Where",
+      "whereValue": "Amsterdam. Exact spot: soon!",
+      "wear": "Wear",
+      "wearValue": "Something you can dance in",
+      "more": "Travel tips, places to stay and the full schedule will appear here."
+    },
+    "footer": {
+      "text": "Made with love, pink and stroopwafels."
+    }
+  },
+  "nl": {
+    "meta": {
+      "title": "Ysabel & Peter gaan trouwen!"
+    },
+    "lang": {
+      "switch": "English"
+    },
+    "hero": {
+      "kicker": "Save the date, lieverd",
+      "names": "Ysabel & Peter",
+      "date": "10 april 2027",
+      "place": "Amsterdam, Nederland",
+      "tagline": "Zij zeiden ja. Nu jij."
+    },
+    "countdown": {
+      "title": "Dagen tot HET GEBEURT",
+      "days": "dagen",
+      "hours": "uur",
+      "minutes": "minuten",
+      "seconds": "seconden",
+      "today": "HET GEBEURT. VANDAAG. NU. 💍",
+      "past": "HET IS GEBEURD. 🎉"
+    },
+    "rsvp": {
+      "title": "RSVP",
+      "intro": "Alleen heel speciale mensen hebben deze link. Dat ben jij.",
+      "nameLabel": "Eerst: wie ben jij?",
+      "namePlaceholder": "Jouw naam",
+      "nameButton": "Dat ben ik!",
+      "notFound": "Hmm, we vinden je niet op de lijst. Probeer je volledige naam of check de spelling. Indringers gaan de gracht in. 🚲",
+      "didYouMean": "Bedoelde je {name}?",
+      "greeting": "Hoi {name}! 🌷",
+      "question": "Kun je erbij zijn?",
+      "yes": "JA!",
+      "no": "NEE",
+      "noTaunts": [
+        "nee",
+        "Mis!",
+        "Weet je het zeker?",
+        "Denk aan Ysabels gezicht.",
+        "Peter huilt al.",
+        "Te langzaam!",
+        "Zelfs de tulpen zijn verdrietig.",
+        "Mij vang je niet.",
+        "Verkeerde knop, schat.",
+        "Oké oké, je bent vasthoudend."
+      ],
+      "noSurrender": "…of, als je echt écht niet kunt 💔",
+      "noSurrenderConfirm": "Ik kan echt niet komen",
+      "noReducedMotion": "NEE (deze knop staakt)",
+      "plusOneLabel": "Neem je {plusOne} mee?",
+      "plusOneYes": "Ja, we komen allebei",
+      "plusOneNo": "Alleen ik",
+      "dietLabel": "Iets dat we moeten weten over eten?",
+      "dietPlaceholder": "Allergieën, vegetarisch, haat koriander…",
+      "songLabel": "Een serieus nummerverzoek (we proberen het echt)",
+      "songPlaceholder": "Artiest – Titel",
+      "noteLabel": "Een berichtje voor het bruidspaar (optioneel)",
+      "notePlaceholder": "Zeg iets liefs. Of iets pijnlijks.",
+      "send": "Versturen!",
+      "sending": "Bezig…",
+      "errorSend": "Oeps, dat is niet gelukt. Probeer opnieuw of stuur Ysabel een berichtje.",
+      "yesDone": "TOT IN AMSTERDAM! 🎉",
+      "yesDoneSub": "Ysabel en Peter deden net een blij dansje. Meer info volgt.",
+      "noDone": "We gaan je vreselijk missen. 💔",
+      "noDoneSub": "Bedankt dat je het laat weten. We heffen het glas op jou.",
+      "changeMind": "Bedacht je je? Antwoord wijzigen (het laatste telt).",
+      "quiz": [
+        {
+          "id": "excited",
+          "q": "Hoe enthousiast ben je om naar onze bruiloft te komen?",
+          "options": [
+            "Heel enthousiast 😊",
+            "Extreem enthousiast 🎉",
+            "Enthousiaster dan Alba met ijs 😤",
+            "Trillend op een frequentie die alleen honden horen 🐕",
+            "Mijn koffer stond al klaar in 2019 🧳"
+          ]
+        },
+        {
+          "id": "cry",
+          "q": "Ga je huilen?",
+          "options": [
+            "Misschien een beetje 🥹",
+            "Janken, op vol volume 😭",
+            "Ik huil nu al terwijl ik dit invul 💧",
+            "Ik laat de gracht overstromen 🌊",
+            "Ik huil zo hard dat de ceremonie op een boot moet 🚤"
+          ]
+        },
+        {
+          "id": "gift",
+          "q": "Wat ga je ons cadeau doen?",
+          "options": [
+            "Een lief kaartje 💌",
+            "Een heel goede fles wijn 🍷",
+            "Mijn aanwezigheid is het cadeau 🎁",
+            "ca$$$$$h 💸"
+          ]
+        },
+        {
+          "id": "outfit",
+          "q": "Welke kleur jurk ga je dragen? (Pakken mogen ook.)",
+          "options": [
+            "Zacht beige 🤎",
+            "Roze, uiteraard 💗",
+            "Wat de dresscode zegt 📋",
+            "Een volledig tulpenkostuum 🌷",
+            "Wit. Niet tegen Ysabel zeggen. 🤫"
+          ],
+          "failIndex": 4
+        },
+        {
+          "id": "dance",
+          "q": "Op welk nummer ga je los?",
+          "options": [
+            "Dancing Queen, hard 👑",
+            "Snollebollekes – Links Rechts ↔️",
+            "Wat de DJ ook draait, maar met ellebogen 💃",
+            "De Macarena, drie keer 🕺",
+            "A cappella. Ongevraagd. 🎤"
+          ]
+        }
+      ],
+      "quizModeOne": "Alle vragen op één pagina",
+      "quizModeAll": "Eén vraag per keer",
+      "quizBack": "← Terug",
+      "uhuhTitle": "UH-UH!",
+      "uhuhStamp": "RSVP MISLUKT",
+      "uhuhSub": "Je droeg WIT. Je bent officieel uitgenodigd… niet meer. 🚫👰",
+      "uhuhRetry": "Oké, sorry. Ik kies een andere kleur.",
+      "cinemaClose": "Sluit de bioscoop ✕",
+      "quizProgress": "{n} van {total}",
+      "quizLast": "Laatste stukje, echt waar"
+    },
+    "details": {
+      "title": "De details",
+      "intro": "De rest volgt nog. Dit weten we nu:",
+      "when": "Wanneer",
+      "whenValue": "Zaterdag 10 april 2027",
+      "where": "Waar",
+      "whereValue": "Amsterdam. Precieze plek: binnenkort!",
+      "wear": "Aantrekken",
+      "wearValue": "Iets waarin je kunt dansen",
+      "more": "Reistips, slaapplekken en het volledige programma komen hier."
+    },
+    "footer": {
+      "text": "Gemaakt met liefde, roze en stroopwafels."
+    }
+  }
+}
